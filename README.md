@@ -23,6 +23,15 @@ pip install openai python-dotenv
 ```
 
 ```bash
+pip install redis huey channels_redis
+```
+
+Menjalankan Huey, dengan workers `4`
+```bash
+./manage.py run_huey --workers 4
+```
+
+```bash
 pip install chromadb mistralai
 ```
 
